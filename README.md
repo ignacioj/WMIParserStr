@@ -15,9 +15,9 @@ There will be false positives due to the search method.
 
 
 
-WMIParserStr.exe -i OBJECTS.DATA -o .\ -s .\
+> WMIParserStr.exe -i OBJECTS.DATA -o .\ -s .\
 
-##Console output:
+## Console output:
 
 Total Bindings: 22
 
@@ -62,7 +62,7 @@ Total EventFilters: 22
 
 
 
-##Tab delimited file:
+## Tab delimited file:
 
 Headers:       Type  ||     Name    ||             Content      ||          Other           ||                    Orphan
 
