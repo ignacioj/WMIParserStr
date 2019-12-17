@@ -5,8 +5,13 @@
 Very fast. It can extract Consumers and EventFilters deleted or without a binding. These orphans are marked as TRUE in the last column of the report. False for the bindings and those Consumers and the EventConsumer that are binded.
  
 -i Input file (OBJECTS.DATA)
+
 -o Output directory for analysis results. Tab delimited file.
+
 -s Ouput directory to save the strings (not Unicode) of OBJECTS.DATA
+
+
+
 
 WMIParserStr.exe -i OBJECTS_A3.DATA -o .\ -s .\
 
