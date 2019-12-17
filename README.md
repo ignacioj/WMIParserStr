@@ -15,7 +15,7 @@ There will be false positives due to the search method.
 
 
 
-WMIParserStr.exe -i OBJECTS_A3.DATA -o .\ -s .\
+WMIParserStr.exe -i OBJECTS.DATA -o .\ -s .\
 
 ##Console output:
 
