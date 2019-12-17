@@ -3,6 +3,8 @@
  WMI OBJECTS.DATA parser
 
 Very fast. It can extract Consumers and EventFilters deleted or without a binding. These orphans are marked as TRUE in the last column of the report. False for the bindings and those Consumers and the EventConsumer that are binded.
+
+There will be false positives due to the search method.
  
 -i Input file (OBJECTS.DATA)
 
@@ -38,8 +40,6 @@ Total Bindings: 22
 ...........
 
 Total Consumers: 120
-
-[CommandLineEventConsumer]-[CommandLineEventConsumer]-[__EventConsumerProviderRegistration]-[]-[True]
 
 [CommandLineEventConsumer]-[InfectDrive]-[powershell.exe -NoP -C [Text.Encoding]::ASCII.GetString([Convert]::FromBase64String('WDVPIVAlQEFQWzRcUFpYNTQoUF4pN0NDKTd9JEVJQ0FSLVNUQU5EQVJELUFOVElWSVJVUy1URVNULUZJTEUhJEgrSCo=')) | Out-File %DriveName%\eicar.txt]-[]-[True]
 
