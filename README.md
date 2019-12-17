@@ -2,7 +2,7 @@
 
  WMI OBJECTS.DATA parser
 
-Very fast. It can extract consumers and  
+Very fast. It can extract Consumers and EventFilters deleted or without a binding. These orphans are marked as TRUE in the last column of the report. False for the bindings and those Consumers and the EventConsumer that are binded.
  
 -i Input file (OBJECTS.DATA)
 -o Output directory for analysis results. Tab delimited file.
