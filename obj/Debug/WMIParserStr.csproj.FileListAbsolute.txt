@@ -1,0 +1,5 @@
+D:\Proyectos\WMIParserStr\bin\Debug\WMIParserStr.exe.config
+D:\Proyectos\WMIParserStr\bin\Debug\WMIParserStr.exe
+D:\Proyectos\WMIParserStr\bin\Debug\WMIParserStr.pdb
+D:\Proyectos\WMIParserStr\obj\Debug\WMIParserStr.exe
+D:\Proyectos\WMIParserStr\obj\Debug\WMIParserStr.pdb
