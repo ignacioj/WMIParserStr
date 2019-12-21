@@ -63,14 +63,14 @@ Total EventFilters: 22
 
 
 ## Tab delimited file:
-
-Headers:       Type  ||     Name    ||             Content      ||          Other           ||                    Orphan
+<pre>
+Headers:              Type||       Name     ||       Content     ||              Other               ||Orphan
 
 Elements:
 
-Bindings:       Binding      ||        Type of Consumer  ||     Consumer name      ||       EventFilter name           ||           FALSE
+Bindings:          Binding||Type of Consumer|| Consumer name     ||        EventFilter name          ||FALSE
 
-Consumers:      Type of consumer   ||  Consumer name     ||     CommandLineTemplate   ||    [ExecutablePath][VBScript/JSCript]     ||   False/True 
+Consumers:            Type||       name     ||CommandLineTemplate||[ExecutablePath][VBScript/JSCript]||False/True 
 
-EventFilter    __EventFilter   ||     EventFilter name   ||    Condition       ||          [root\cimv2][...]    ||  False/True
-
+EventFilter: __EventFilter||       name     ||    Condition      ||           [root\cimv2][...]      ||False/True
+</pre>
