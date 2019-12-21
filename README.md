@@ -66,7 +66,7 @@ Total EventFilters: 22
 <pre>
 Headers:              Type||       Name     ||       Content     ||              Other               ||Orphan
 
-Elements:
+
 
 Bindings:          Binding||Type of Consumer|| Consumer name     ||        EventFilter name          ||FALSE
 
